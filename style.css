@@ -1,0 +1,54 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Gaya header */
+header {
+    background-color: #333; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+}
+
+
+.logo a {
+    height: 50px;
+    font-size: 24px;
+}
+
+/* Gaya daftar menu dalam navbar */
+ul {
+    list-style-type: none; /* Menghapus bullet points pada daftar */
+    display: flex; /* Menjadikan daftar sebagai flex container */
+}
+
+/* Gaya setiap item menu */
+li {
+    margin-right: 20px; /* Jarak antara setiap item menu */
+    font-size: 18px;
+}
+
+/* Gaya tautan menu */
+a {
+    color: #fff; /* Warna teks */
+    text-decoration: none; /* Menghapus garis bawah tautan */
+    font-weight: bold; /* Ketebalan teks */
+}
+
+.sign-up {
+    display: flex;
+}
+
+.main-text h1 {
+    font-size: 48px;
+    font-weight:bolder;
+}
+
