@@ -1,54 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Gaya header */
 header {
-    background-color: #333; 
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-    padding: 10px 20px; 
+    background-color: #1f2937;
+    padding: 1em 13em;
+}
+
+main {
+    padding: 1em 13em;
+    background-color: #1f2937;
 }
 
 
-.logo a {
-    height: 50px;
-    font-size: 24px;
-}
-
-/* Gaya daftar menu dalam navbar */
-ul {
-    list-style-type: none; /* Menghapus bullet points pada daftar */
-    display: flex; /* Menjadikan daftar sebagai flex container */
-}
-
-/* Gaya setiap item menu */
-li {
-    margin-right: 20px; /* Jarak antara setiap item menu */
-    font-size: 18px;
-}
-
-/* Gaya tautan menu */
-a {
-    color: #fff; /* Warna teks */
-    text-decoration: none; /* Menghapus garis bawah tautan */
-    font-weight: bold; /* Ketebalan teks */
-}
-
-.sign-up {
+.welcome {
+    padding: 7em 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
 }
 
-.main-text h1 {
+.welcome .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.welcome .right {
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.nav {
+    display: flex; 
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5em;
+    text-decoration: none;
+}
+
+a:link {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.left {
+    color: #F9FAF8;
+}
+
+.left h1 {
+    font-weight: 900;
     font-size: 48px;
-    font-weight:bolder;
 }
 
+button {
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.image {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 215px;
+}
+
+.image p {
+    color: #E5E7EB;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 13em;
+    margin-top: 3em;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3em 0 6em 0;
+}
+
+.card {
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+
+.square {
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    width: 160px;
+    height: 160px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding: 7em;
+}
+
+.quote .text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote .thor {
+    font-weight: bold;
+}
