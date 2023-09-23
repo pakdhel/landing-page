@@ -81,7 +81,8 @@ button {
     font-weight: bold;
     font-size: 18px;
     color: #E5E7EB;
-    padding: 0.2em;
+    padding: 0.4em;
+    width: 120px;
 }
 
 .image {
